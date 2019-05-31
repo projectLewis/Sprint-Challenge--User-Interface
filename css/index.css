@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+.mainNavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+/* Consider moving logo outside of .mainNavBar and setting mainNavbar width to 60% aligned to the right /*
+/* .lambdaLogo {
+    justify-content: flex-start;
+} */
+.mainNavBar a {
+    text-decoration: none;
+    color: black;
+}
+.jumboImg {
+    margin-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
