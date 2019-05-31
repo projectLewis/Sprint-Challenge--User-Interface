@@ -75,17 +75,23 @@ header {
     width: 100%;
     margin: 0 auto;
 }
+/* #TODO refactor nav bar using more flexbox for links instead of just between image and links */
 .mainNavBar {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: baseline;
     padding: 20px 2%;
     font-size: 14px;
 }
-/* Consider moving logo outside of .mainNavBar and setting mainNavbar width to 60% aligned to the right /*
-/* .lambdaLogo {
-    justify-content: flex-start;
-} */
+.subnav a {
+    padding-right: 80px;
+}
+.contact {
+    padding-right: 0px;
+}
+.lambdaLogo {
+    margin-right: 50px;
+}
 .mainNavBar a {
     text-decoration: none;
     color: black;
