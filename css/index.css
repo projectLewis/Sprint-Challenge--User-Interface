@@ -183,12 +183,16 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-/* .aboutMainContent {
-
-} */
+.aboutTextContainer {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
 .aboutWrapperContent {
     width: 100%;
-    margin: 0px 2%;
+    padding: 0px 2%;
     margin-bottom: 15px;
 }
 #topWrapper {
@@ -198,9 +202,9 @@ header {
 #topWrapper p {
     margin-bottom: 20px;
 }
-#bottomWrapper {
+/* #bottomWrapper {
     margin-top: 40px;
-}
+} */
 #bottomWrapper p {
     margin-bottom: 40px;
 }
