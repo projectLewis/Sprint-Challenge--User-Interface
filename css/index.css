@@ -97,6 +97,7 @@ header {
     color: black;
 }
 .jumboImg {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .top-content {
@@ -182,7 +183,34 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* .aboutMainContent {
 
+} */
+.aboutWrapperContent {
+    width: 100%;
+    margin: 0px 2%;
+    margin-bottom: 15px;
+}
+#topWrapper {
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+#topWrapper p {
+    margin-bottom: 20px;
+}
+#bottomWrapper {
+    margin-top: 40px;
+}
+#bottomWrapper p {
+    margin-bottom: 40px;
+}
+button {
+    background: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    border: 2px solid black;
+    font-size: 16px;
+}
 footer {
     width: 100%;
     background: black;
