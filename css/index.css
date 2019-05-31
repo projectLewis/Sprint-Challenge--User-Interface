@@ -183,12 +183,27 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-.aboutTextContainer {
+.aboutMainContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutContentContainer {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
     margin-bottom: 40px;
+}
+.aboutContentContainer:nth-child(1) {
+    margin-right: 15px;
+}
+.aboutContentContainer:nth-child(2) {
+    margin-right: 10px;
+}
+.aboutContentContainer:nth-child(3) {
+    margin-right: 15px;
+}
+.aboutContentContainer:nth-child(4) {
+    margin-right: 10px;
 }
 .aboutWrapperContent {
     width: 100%;
