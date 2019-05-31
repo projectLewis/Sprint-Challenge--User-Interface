@@ -249,3 +249,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* STRETCH GOAL STUFF BELOW */
+footer nav a:hover {
+    animation-name: spin;
+    animation-duration: 1700ms;
+    animation-iteration-count: 1;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1700ms;
+    -webkit-animation-iteration-count: 1;
+}
+.lambdaLogo {
+    animation-name: spin;
+    animation-duration: 4500ms;
+    animation-iteration-count: 1;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4500ms;
+    -webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
