@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -79,9 +79,28 @@ header {
 .mainNavBar {
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+}
+.subnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.subnav a {
+    padding-top: 10px;
+}
+.subnav a:hover {
+    text-decoration: underline;
+    color: red;
+    animation-name: spin;
+    animation-duration: 1700ms;
+    animation-iteration-count: 1;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1700ms;
+    -webkit-animation-iteration-count: 1;
 }
 .homeLink, .aboutLink, .productLink, .blogLink {
     padding-right: 80px;
@@ -99,6 +118,8 @@ header {
 .jumboImg {
     margin-top: 10px;
     margin-bottom: 20px;
+    max-width: 100%;
+    min-width: 50%;
 }
 .top-content {
     display: flex;
@@ -186,14 +207,17 @@ header {
 .aboutMainContent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .aboutContentContainer {
-    width: 48%;
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 80%;
     padding-bottom: 15px;
-    border-bottom: 1px dashed black;
-    margin-bottom: 40px;
+    border-bottom: 0px dashed black;
+    margin: 0px auto 40px auto;
 }
-.aboutContentContainer:nth-child(1) {
+/* .aboutContentContainer:nth-child(1) {
     margin-right: 15px;
 }
 .aboutContentContainer:nth-child(2) {
@@ -204,7 +228,7 @@ header {
 }
 .aboutContentContainer:nth-child(4) {
     margin-right: 10px;
-}
+} */
 .aboutContentContainer h2 {
     margin-top: 7px;
 }
